@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Check out some of my interests
 
 You can use the [editor on GitHub](https://github.com/gettoknowme/gettoknowme.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
