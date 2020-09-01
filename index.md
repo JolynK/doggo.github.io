@@ -40,4 +40,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ### Social Media
 
 Links are down below!
-![instagram_icon.png](https://www.instagram.com/ahblahblahblaah/)
+![image](https://user-images.githubusercontent.com/70376689/91884816-4e995d00-ecb9-11ea-85ce-9275674f2209.png)
