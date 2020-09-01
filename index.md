@@ -1,4 +1,4 @@
-## Check out my page
+## Get To Know Me :yum:
 
 You can use the [editor on GitHub](https://github.com/gettoknowme/gettoknowme.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
