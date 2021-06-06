@@ -182,7 +182,7 @@ main input[type=submit] {
     background: #ccc;
     width: 150px;
     text-align: center;
-    margin-left: 330px;
+    margin-left: 300px;
     border: 1px solid #ccc;
     box-sizing: border-box;
     color: #000000;
@@ -298,7 +298,79 @@ input[type=submit]:hover {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 516px) {
+    body {
+        background-image: url(images/bg.jpg);
+    }
+    header {
+        padding: .35em;
+        width: 100%;
+    }
+    header ul {
+        width: 100%;
+        height: 50px;
+        background: rgb(70, 64, 64);
+        padding-left: 6px;
+    }
+    header ul li {
+        display: inline-block;
+        list-style: none;
+        line-height: 0px;
+    }
+    header ul li a {
+        display: block;
+        padding-top: 22px;
+        padding-bottom: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer .footer-content {
+        height: auto;
+        flex-direction: column;
+    }
+    .footer .footer-content .contact-form {
+        padding-bottom: 90px;
+    }
+    .footer .footer-content .contact-form .contact-btn {
+        width: 100%;
+    }
+    section {
+        margin-top: 40px;
+        padding-top: 40px;
+        background: #cc6363;
+        border-radius: 10px;
+        color: #fff;
+        position: absolute;
+    }
+    main {
+        height: 1100px;
+    }
+    .statement {
+        margin-top: 150px;
+    }
+    nav1 {
+        width: 80%;
+        margin-left: 148px;
+    }
+    main li {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    main ul {
+        list-style: none;
+        margin-left: 70px;
+    }
+    main input[type=submit] {
+        margin-left: 140px;
+    }
+}
+
+@media only screen and (min-width: 517px) and (max-width: 600px) {
     body {
         background-image: url(images/bg.jpg);
     }
@@ -389,7 +461,6 @@ input[type=submit]:hover {
         float: left;
         width: 80%;
         margin-left: 148px;
-        border: 2px solid blue;
     }
     main ul {
         list-style: none;
