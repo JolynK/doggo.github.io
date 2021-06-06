@@ -243,7 +243,68 @@ h1 {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 516px) {
+    body {
+        background-image: url(images/bg.jpg);
+    }
+    header {
+        padding: .35em;
+        width: 100%;
+    }
+    header ul {
+        width: 100%;
+        height: 50px;
+        background: rgb(70, 64, 64);
+        padding-left: 6px;
+    }
+    header ul li {
+        display: inline-block;
+        list-style: none;
+        line-height: 0px;
+    }
+    header ul li a {
+        display: block;
+        padding-top: 22px;
+        padding-bottom: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer .footer-content {
+        height: auto;
+        flex-direction: column;
+    }
+    .footer .footer-content .contact-form {
+        padding-bottom: 90px;
+    }
+    .footer .footer-content .contact-form .contact-btn {
+        width: 100%;
+    }
+    .about img {
+        float: left;
+        width: 100%;
+        height: 80%;
+        margin-top: 30px;
+    }
+    .about .description {
+        float: left;
+        width: 80%;
+        margin-left: 25px;
+    }
+    main {
+        height: 1300px;
+    }
+    main li {
+        margin-right: 40px;
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (min-width: 517px) and (max-width: 600px) {
     body {
         background-image: url(images/bg.jpg);
     }
