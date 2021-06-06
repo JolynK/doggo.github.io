@@ -304,7 +304,67 @@ input[type=submit]:hover {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 516px) {
+    body {
+        background-image: url(images/bg.jpg);
+    }
+    header {
+        padding: .35em;
+        width: 100%;
+    }
+    header ul {
+        width: 100%;
+        height: 50px;
+        background: rgb(70, 64, 64);
+        padding-left: 6px;
+    }
+    header ul li {
+        display: inline-block;
+        list-style: none;
+        line-height: 0px;
+    }
+    header ul li a {
+        display: block;
+        padding-top: 22px;
+        padding-bottom: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    .briefing p {
+        font-size: 20px;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer .footer-content {
+        height: auto;
+        flex-direction: column;
+    }
+    .footer .footer-content .contact-form {
+        padding-bottom: 90px;
+    }
+    .footer .footer-content .contact-form .contact-btn {
+        width: 100%;
+    }
+    .intro {
+        width: 90%;
+        height: 30%;
+        margin: 30px auto 30px;
+        margin-top: 80px;
+    }
+    .services-image,
+    .courses-image,
+    .store-image {
+        width: 70%;
+    }
+    main {
+        height: 2700px;
+    }
+}
+
+@media only screen and (min-width: 517px) and (max-width: 600px) {
     body {
         background-image: url(images/bg.jpg);
     }
